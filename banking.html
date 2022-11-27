@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bnaking System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Css/banking.css">
+</head>
+
+<body>
+    <header class="text-5xl text-center my-10 font-semibold ">Let's Get some <span
+            class="text-purple-600">MONEY !</span> 
+    </header>
+
+
+
+    <main>
+        <section class="main-box">
+            <div class="up-box">
+                <div class="de-box">
+                    <h3>Deposit</h3>
+                    <h2>$<span id="deposit-total">000</span></h2>
+                </div>
+                <div class="de-box">
+                    <h3 >Withdraw</h3>
+                    <h2 >$ <span id="withdraw-total">000</span></h2>
+                </div>
+                <div class="de-box"">
+                    <h3 >Balance</h3>
+                    <h2 >$ <span id="balace-input">500</span></h2>
+                </div>
+            </div>
+            <!-- deposite and withdraw ssecttion -->
+            <div class="down-box">
+                <div class="wid-box">
+                    <h3>Please Deposit</h3>
+
+                    <input id="deposit-input"
+                        type="text" placeholder="$ Deposit Ammount" required>
+
+                    <button id="deposit-button">Deposit</button>
+                </div>
+
+                <div class="wid-box">
+                    <h3>Withdraw Ammmount</h3>
+
+
+
+                    <input id="withdraw-input" type="text" placeholder="$ Deposit Ammount" required>
+
+                    <!-- <h3 id="error" class="text-1xl text-red-800"></h3> -->
+
+                    <button id="withdraw-button">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/banking.js"></script>
+</body>
+
+</html>

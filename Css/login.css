@@ -1,0 +1,75 @@
+.head{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 50px;
+    text-transform:capitalize ;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.head span{
+    color: blueviolet;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+
+
+.input-box{
+    height: 200px;
+    width: 500px;
+    border-radius: 8px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ .login h3{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: wheat;
+}
+.input-2{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.input-2 button{
+    margin-left: 120px;
+    font-size: large;
+   color: wheat;
+   font-weight: 500;
+   border: none;
+   cursor: pointer;
+}
+
+.n-input ,.p-input {
+
+    width: 300px;
+    margin: 5px;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.p-input{
+
+}
+
+
+
+.l-btn{
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    background-color:green;
+}

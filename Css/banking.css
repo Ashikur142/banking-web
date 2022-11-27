@@ -1,0 +1,82 @@
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.up-box{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 200px;
+    width: auto;
+
+}
+.up-box .de-box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 33%;
+    margin: 5px;
+    background-color: aqua;
+    padding: 30px 0px 0px 30px;
+    border-radius: 6px;
+    font-size: large;
+
+    
+}
+.up-box .de-box h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    color:rgb(5, 24, 43);
+}
+.up-box .de-box h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.down-box{
+
+    /* border: 2px solid black; */
+    display: flex;
+    height: 200px;
+    width: auto;
+}
+.down-box .wid-box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin: 10px;
+    background-color: rgb(13, 203, 255);
+    padding: 30px 0px 0px 30px;
+    border-radius: 6px;
+    font-size: large;
+    align-items: flex-start;
+
+}
+.down-box .wid-box h3,input,button{
+    font-size:large;
+    margin: 5px;
+}
+.down-box .wid-box button{
+    background-color: rgb(41, 46, 41);
+    width: 80px;
+    border-radius: 3px;
+    color: beige;
+    font-weight: 500;
+    margin-top: 15px;
+    border: none;
+}
+.down-box .wid-box input{
+    width: 300px;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+}
+.down-box .wid-box h3{
+    font-size:large;
+    font-weight: 500;
+}
